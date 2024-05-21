@@ -1,1 +1,1 @@
-# personal-project
+# computer-management-project
