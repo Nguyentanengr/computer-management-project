@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class JDBCUtil {
     private static String url = "jdbc:mySQL://localhost:3306/quanlimaytinh";
     private static String username = "root";
-    private static String password = "";
+    private static String password = "3306";
     public static Connection getConnection() throws ClassNotFoundException{
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = null;
